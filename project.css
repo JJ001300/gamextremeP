@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #333;
+    color: red;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: red;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 400px;
+    height: 80px;
+}
+
+.contact h3{
+    text-align: center;
+}
+
+.contact p{
+    text-align: center;
+}
+
+.wall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('Wall.jpeg');
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.wall h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.wall p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.features-section .feature-box:hover {
+    transform: translateY(-10px);
+}
+
+.features-section .feature-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.rev {
+    padding: 2rem 0;
+}
+
+.rev-box {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.rev-text {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.rev-author {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.signup {
+    background-color: #541e1b;
+    padding: 5rem 0;
+}
+
+.signup h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.signup p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.about{
+    align-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card {
+    max-width: 400px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    opacity: .7;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input {
+    margin-bottom: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+}
